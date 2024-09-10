@@ -40,11 +40,13 @@ s.connect(('localhost',8000))
 while True: 
  print(s.recv(1024).decode())
  s.send("acknowledgement recived from the server".encode())
-<br></br>
-<br></br>
-<br></br>
-<br></br>
+
 ```
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+
 ## OUPUT
 ### Server
 ![Screenshot 2024-09-10 085639](https://github.com/user-attachments/assets/c54b96bc-a64b-48a9-a8ee-b608bd6d9d6d)
